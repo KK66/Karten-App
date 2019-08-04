@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02C4834C1D6DA1E80049F7B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C4834B1D6DA1E80049F7B6 /* AppDelegate.swift */; };
+		02C483511D6DA1E80049F7B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02C4834F1D6DA1E80049F7B6 /* Main.storyboard */; };
+		02C483531D6DA1E90049F7B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02C483521D6DA1E90049F7B6 /* Assets.xcassets */; };
+		02C483561D6DA1E90049F7B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02C483541D6DA1E90049F7B6 /* LaunchScreen.storyboard */; };
+		02C483621D6DA26B0049F7B6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C483611D6DA26B0049F7B6 /* DetailViewController.swift */; };
+		02C483641D6DA2780049F7B6 /* MasterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C483631D6DA2780049F7B6 /* MasterTableViewController.swift */; };
+		02C483661D6DA28E0049F7B6 /* HappyPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C483651D6DA28E0049F7B6 /* HappyPlace.swift */; };
+		02C483681D6DA3710049F7B6 /* HappyPlaceDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C483671D6DA3710049F7B6 /* HappyPlaceDataSource.swift */; };
+		02C4836A1D6DA3BE0049F7B6 /* ArrayRessource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C483691D6DA3BE0049F7B6 /* ArrayRessource.swift */; };
+		399AE4471E8055830069C9EF /* MapHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399AE4461E8055830069C9EF /* MapHelper.swift */; };
+		399AE4491E80580C0069C9EF /* NewLocationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399AE4481E80580C0069C9EF /* NewLocationDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02C483481D6DA1E80049F7B6 /* HappyPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02C4834B1D6DA1E80049F7B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		02C483501D6DA1E80049F7B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02C483521D6DA1E90049F7B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02C483551D6DA1E90049F7B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02C483571D6DA1E90049F7B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02C483611D6DA26B0049F7B6 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		02C483631D6DA2780049F7B6 /* MasterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterTableViewController.swift; sourceTree = "<group>"; };
+		02C483651D6DA28E0049F7B6 /* HappyPlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HappyPlace.swift; sourceTree = "<group>"; };
+		02C483671D6DA3710049F7B6 /* HappyPlaceDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HappyPlaceDataSource.swift; sourceTree = "<group>"; };
+		02C483691D6DA3BE0049F7B6 /* ArrayRessource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayRessource.swift; sourceTree = "<group>"; };
+		399AE4461E8055830069C9EF /* MapHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapHelper.swift; sourceTree = "<group>"; };
+		399AE4481E80580C0069C9EF /* NewLocationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewLocationDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02C483451D6DA1E80049F7B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02C4833F1D6DA1E80049F7B6 = {
+			isa = PBXGroup;
+			children = (
+				02C4834A1D6DA1E80049F7B6 /* HappyPlaces */,
+				02C483491D6DA1E80049F7B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02C483491D6DA1E80049F7B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02C483481D6DA1E80049F7B6 /* HappyPlaces.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02C4834A1D6DA1E80049F7B6 /* HappyPlaces */ = {
+			isa = PBXGroup;
+			children = (
+				02C4835F1D6DA1FE0049F7B6 /* Controller */,
+				02C4835E1D6DA1F90049F7B6 /* View */,
+				02C4835D1D6DA1F40049F7B6 /* Model */,
+				02C483601D6DA2130049F7B6 /* Ressources */,
+			);
+			path = HappyPlaces;
+			sourceTree = "<group>";
+		};
+		02C4835D1D6DA1F40049F7B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				02C4834B1D6DA1E80049F7B6 /* AppDelegate.swift */,
+				02C483651D6DA28E0049F7B6 /* HappyPlace.swift */,
+				02C483671D6DA3710049F7B6 /* HappyPlaceDataSource.swift */,
+				02C483691D6DA3BE0049F7B6 /* ArrayRessource.swift */,
+				399AE4461E8055830069C9EF /* MapHelper.swift */,
+				399AE4481E80580C0069C9EF /* NewLocationDelegate.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		02C4835E1D6DA1F90049F7B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				02C483541D6DA1E90049F7B6 /* LaunchScreen.storyboard */,
+				02C4834F1D6DA1E80049F7B6 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		02C4835F1D6DA1FE0049F7B6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				02C483611D6DA26B0049F7B6 /* DetailViewController.swift */,
+				02C483631D6DA2780049F7B6 /* MasterTableViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		02C483601D6DA2130049F7B6 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				02C483521D6DA1E90049F7B6 /* Assets.xcassets */,
+				02C483571D6DA1E90049F7B6 /* Info.plist */,
+			);
+			name = Ressources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02C483471D6DA1E80049F7B6 /* HappyPlaces */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02C4835A1D6DA1E90049F7B6 /* Build configuration list for PBXNativeTarget "HappyPlaces" */;
+			buildPhases = (
+				02C483441D6DA1E80049F7B6 /* Sources */,
+				02C483451D6DA1E80049F7B6 /* Frameworks */,
+				02C483461D6DA1E80049F7B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HappyPlaces;
+			productName = HappyPlaces;
+			productReference = 02C483481D6DA1E80049F7B6 /* HappyPlaces.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02C483401D6DA1E80049F7B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Kilian Kellermann";
+				TargetAttributes = {
+					02C483471D6DA1E80049F7B6 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = VF2M7C43LJ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 02C483431D6DA1E80049F7B6 /* Build configuration list for PBXProject "HappyPlaces" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 02C4833F1D6DA1E80049F7B6;
+			productRefGroup = 02C483491D6DA1E80049F7B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02C483471D6DA1E80049F7B6 /* HappyPlaces */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02C483461D6DA1E80049F7B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C483561D6DA1E90049F7B6 /* LaunchScreen.storyboard in Resources */,
+				02C483531D6DA1E90049F7B6 /* Assets.xcassets in Resources */,
+				02C483511D6DA1E80049F7B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02C483441D6DA1E80049F7B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C4834C1D6DA1E80049F7B6 /* AppDelegate.swift in Sources */,
+				02C4836A1D6DA3BE0049F7B6 /* ArrayRessource.swift in Sources */,
+				399AE4491E80580C0069C9EF /* NewLocationDelegate.swift in Sources */,
+				02C483641D6DA2780049F7B6 /* MasterTableViewController.swift in Sources */,
+				02C483661D6DA28E0049F7B6 /* HappyPlace.swift in Sources */,
+				02C483621D6DA26B0049F7B6 /* DetailViewController.swift in Sources */,
+				02C483681D6DA3710049F7B6 /* HappyPlaceDataSource.swift in Sources */,
+				399AE4471E8055830069C9EF /* MapHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		02C4834F1D6DA1E80049F7B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02C483501D6DA1E80049F7B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		02C483541D6DA1E90049F7B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02C483551D6DA1E90049F7B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02C483581D6DA1E90049F7B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02C483591D6DA1E90049F7B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02C4835B1D6DA1E90049F7B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VF2M7C43LJ;
+				INFOPLIST_FILE = HappyPlaces/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.kiliankellermann.HappyPlaces;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		02C4835C1D6DA1E90049F7B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VF2M7C43LJ;
+				INFOPLIST_FILE = HappyPlaces/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.kiliankellermann.HappyPlaces;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02C483431D6DA1E80049F7B6 /* Build configuration list for PBXProject "HappyPlaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02C483581D6DA1E90049F7B6 /* Debug */,
+				02C483591D6DA1E90049F7B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02C4835A1D6DA1E90049F7B6 /* Build configuration list for PBXNativeTarget "HappyPlaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02C4835B1D6DA1E90049F7B6 /* Debug */,
+				02C4835C1D6DA1E90049F7B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02C483401D6DA1E80049F7B6 /* Project object */;
+}
